@@ -41,8 +41,7 @@ client.on("message", async (message) => {
                     )
                 }
             }
-        )
-         // Test change for Discord webhook.
+        )         
         message.reply(`There are ${formedMessages.length} messages on the server.`)
     }
 })

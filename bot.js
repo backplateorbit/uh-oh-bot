@@ -75,7 +75,7 @@ const serverMessageExtractor = async (serverObject) => {
     const serverMessages = [];
 
     const textChannels = serverObject.channels.cache.filter(
-        channel => channel.type === "text" && channel.name === "bot-testing"
+        channel => channel.type === "text"
     )
 
     for (channel of textChannels) {
